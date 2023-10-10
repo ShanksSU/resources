@@ -1,0 +1,186 @@
+{
+  "paras": {
+    "p0": [
+      {
+        "lines": [
+          "P0",
+          "P0_1",
+          "P0_2"
+        ],
+        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "char": [
+          {"name": "char_1", "imgPath": "./img/character.png"},
+          {"name": "char_2", "imgPath": "./img/character2.png"}
+        ],
+        "speaker": ["char_1"],
+        "music": "./music/ms2.mp3"
+      },
+      {
+        "lines": [
+          "P0_9",
+          "P0_10",
+          "P0_11"
+        ],
+        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "char": [
+          {"name": "char_1", "imgPath": "./img/character.png"},
+          {"name": "char_2", "imgPath": "./img/character2.png"}
+        ],
+        "speaker": ["char_2"],
+        "music": "./music/ms1.mp3"
+      }
+    ],
+    "p1": [
+      {
+        "lines": [
+          "P1_0",
+          "P1_1",
+          "P1_2"
+        ],
+        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "char": [
+          {"name": "char_1", "imgPath": "./img/character.png"},
+          {"name": "char_2", "imgPath": "./img/character2.png"}
+        ],
+        "speaker": ["char_2"],
+        "music": "./music/ms2.mp3"
+      },
+      {
+        "lines": [
+          "P1_3",
+          "P1_4",
+          "P1_5"
+        ],
+        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "char": [
+          {"name": "char_1", "imgPath": "./img/character.png"},
+          {"name": "char_2", "imgPath": "./img/character2.png"}
+        ],
+        "speaker": ["char_1"],
+        "music": "./music/ms1.mp3"
+      }
+    ],
+    "p2": [
+      {
+        "lines": [
+          "P2_0",
+          "P2_1",
+          "P2_2"
+        ],
+        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "char": [
+          {"name": "char_1", "imgPath": "./img/character.png"},
+          {"name": "char_2", "imgPath": "./img/character2.png"}
+        ],
+        "speaker": ["char_2"],
+        "music": "./music/ms2.mp3"
+      },
+      {
+        "lines": [
+          "P2_3",
+          "P2_4",
+          "P2_5"
+        ],
+        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "char": [
+          {"name": "char_1", "imgPath": "./img/character.png"},
+          {"name": "char_2", "imgPath": "./img/character2.png"}
+        ],
+        "speaker": ["char_1"],
+        "music": "./music/ms1.mp3"
+      }
+    ],
+    "p3": [
+      {
+        "lines": [
+          "P3"
+        ],
+        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "char": [
+          {"name": "char_1", "imgPath": "./img/character.png"},
+          {"name": "char_2", "imgPath": "./img/character2.png"}
+        ],
+        "speaker": ["char_1", "char_2"],
+        "music": "./music/ms2.mp3"
+      },
+      {
+        "lines": [
+          "P3_1"
+        ],
+        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "char": [
+          {"name": "char_1", "imgPath": "./img/character.png"},
+          {"name": "char_2", "imgPath": "./img/character2.png"}
+        ],
+        "speaker": ["char_1"],
+        "music": "./music/ms1.mp3"
+      }
+    ],    
+    "p4": [
+      {
+        "lines": [
+          "P4"
+        ],
+        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "music": "./music/ms2.mp3"
+      },
+      {
+        "lines": [
+          "P4_1"
+        ],
+        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "music": "./music/ms1.mp3"
+      }
+    ]
+  },
+  "selects": {
+    "p0": {
+      "selects_1": {
+        "join": "p0",
+        "charStat": {
+          "mood": 0,
+          "sleep_quality": 1,
+          "pressure": 2,
+          "restless": 3,
+          "drug_resistance_sleep": 4,
+          "drug_resistance_tranquilizer": 5
+        }
+      },
+      "selects_2": {
+        "join": "p1",
+        "charStat": {
+          "mood": 10,
+          "sleep_quality": 15,
+          "pressure": 20,
+          "restless": 25,
+          "drug_resistance_sleep": 30,
+          "drug_resistance_tranquilizer": 35
+        }
+      }
+    },
+    "p1": {
+      "selects_1": {
+        "join": "p2",
+        "charStat": {
+          "mood": 0,
+          "sleep_quality": 1,
+          "pressure": 2,
+          "restless": 3,
+          "drug_resistance_sleep": 4,
+          "drug_resistance_tranquilizer": 5
+        }
+      },
+      "selects_2": {
+        "join": "p3",
+        "charStat": {
+          "mood": 10,
+          "sleep_quality": 15,
+          "pressure": 20,
+          "restless": 25,
+          "drug_resistance_sleep": 30,
+          "drug_resistance_tranquilizer": 35
+        }
+      }
+    }
+  }
+}
