@@ -7,7 +7,7 @@
           "P0_1",
           "P0_2"
         ],
-        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "bg": "./img/bg2.png",
         "char": [
           {"name": "char_1", "imgPath": "./img/character.png"},
           {"name": "char_2", "imgPath": "./img/character2.png"}
@@ -21,7 +21,7 @@
           "P0_10",
           "P0_11"
         ],
-        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "bg": "./img/bg2.png",
         "char": [
           {"name": "char_1", "imgPath": "./img/character.png"},
           {"name": "char_2", "imgPath": "./img/character2.png"}
@@ -37,7 +37,7 @@
           "P1_1",
           "P1_2"
         ],
-        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "bg": "./img/bg2.png",
         "char": [
           {"name": "char_1", "imgPath": "./img/character.png"},
           {"name": "char_2", "imgPath": "./img/character2.png"}
@@ -51,7 +51,7 @@
           "P1_4",
           "P1_5"
         ],
-        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "bg": "./img/bg3.png",
         "char": [
           {"name": "char_1", "imgPath": "./img/character.png"},
           {"name": "char_2", "imgPath": "./img/character2.png"}
@@ -67,7 +67,7 @@
           "P2_1",
           "P2_2"
         ],
-        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "bg": "./img/bg3.png",
         "char": [
           {"name": "char_1", "imgPath": "./img/character.png"},
           {"name": "char_2", "imgPath": "./img/character2.png"}
@@ -81,7 +81,7 @@
           "P2_4",
           "P2_5"
         ],
-        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "bg": "./img/bg2.png",
         "char": [
           {"name": "char_1", "imgPath": "./img/character.png"},
           {"name": "char_2", "imgPath": "./img/character2.png"}
@@ -95,7 +95,7 @@
         "lines": [
           "P3"
         ],
-        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "bg": "./img/bg2.png",
         "char": [
           {"name": "char_1", "imgPath": "./img/character.png"},
           {"name": "char_2", "imgPath": "./img/character2.png"}
@@ -107,7 +107,7 @@
         "lines": [
           "P3_1"
         ],
-        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "bg": "./img/bg2.png",
         "char": [
           {"name": "char_1", "imgPath": "./img/character.png"},
           {"name": "char_2", "imgPath": "./img/character2.png"}
@@ -121,14 +121,14 @@
         "lines": [
           "P4"
         ],
-        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "bg": "./img/bg2.png",
         "music": "./music/ms2.mp3"
       },
       {
         "lines": [
           "P4_1"
         ],
-        "bg": "https://w.wallhaven.cc/full/3z/wallhaven-3zrpo3.jpg",
+        "bg": "./img/bg2.png",
         "music": "./music/ms1.mp3"
       }
     ]
