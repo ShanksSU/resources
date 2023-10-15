@@ -21,7 +21,7 @@
           "P0_10",
           "P0_11"
         ],
-        "bg": "./img/bg2.png",
+        "bg": "./img/bg3.png",
         "char": [
           {"name": "char_1", "imgPath": "./img/character.png"},
           {"name": "char_2", "imgPath": "./img/character2.png"}
