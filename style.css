@@ -1,0 +1,115 @@
+
+html {
+    overflow: hidden;
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: black;
+    /* background-image: url("./img/bg1.jpeg"); */
+    background-size: 100%;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cursor {
+    animation: Cursor 1.7s infinite linear;
+    display: inline-block;
+    width: 0.5rem;
+    height: 1rem;
+    background: rgb(81, 81, 81);
+}
+
+@keyframes Cursor {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#root, #gal-bg {
+    height: 100%;
+}
+
+.character-image {
+    max-width: 100px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.dialog-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 60%;
+    text-align: left;
+    position: fixed;
+    bottom: 20px;
+    left: 20%;
+    right: 20%;
+    height: 150px;
+    z-index: 9999;
+}
+
+.dialog-text {
+    font-size: 18px;
+    color: #000;
+    line-height: 1.4;
+}
+
+.select-btn-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.select-btn-container::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: -999;
+}
+
+.select-btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
